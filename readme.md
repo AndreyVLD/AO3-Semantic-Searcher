@@ -15,6 +15,8 @@ metadata for 15952441 entries from which 10281597 are unique works as of April 2
 .
 ├── data/
 │   └── ao3_current.sqlite3     # SQLite database with works and embeddings
+├── scripts/
+│   └── create_embeddings.py     # Script to generate embeddings for works
 ├── src/
 │   ├── config.py               # Configuration for models, paths, and constants
 │   ├── db.py                   # Database interaction logic

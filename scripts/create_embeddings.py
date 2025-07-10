@@ -32,6 +32,7 @@ def main() -> None:
         bar.update(len(batch))
 
     bar.close()
+
     # Removing duplicate embeddings
     db.remove_duplicate_works()
 
